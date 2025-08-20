@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-gray-600 text-white p-6 shadow-lg">
+    <h1 class="text-3xl font-bold">Resume</h1>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6">
+    <!-- О себе -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-3">About me</h2>
+      <p class="text-lg leading-relaxed">
+        Меня зовут <b>Артём</b>, учусь в рязанском государственном радиотехническом университите на факультете радиотехники и телекоммуникации. Свою будущую карьеру намерен связать с IT. В ближайшем будущем ожидается перевод на другой факультет, на направление <b>программная инженерия</b>.
+        С 2021 года числюсь в команде тестирования игрового проекта <b>Samp-RP</b>, с командой занимаемся тестированием обновлений, новых механик. 
+        Я обладаю базовыми навыками С++ и SQL, могу решать небольшие задачи, с каждым разом улучшая свои навыки. 
+        Хорошо ознакомлен с Python, на нём самостоятельно пытался разрабатывать следующее: телеграмм-бот, менеджер паролей для компьютера.
+      </p>
+    </section>
+
+ <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-3">Мои проекты</h2>
+      <div class="grid grid-cols-2 gap-4 text-lg">
+        <a href="https://github.com/morz1ck/Password-Manager" target="_blank"
+           class="bg-white shadow-md rounded-2xl p-4 text-center hover:bg-blue-100 transition">
+          Python
+        </a>
+        <a href="https://github.com/yourusername/html-css-projects" target="_blank"
+           class="bg-white shadow-md rounded-2xl p-4 text-center hover:bg-blue-100 transition">
+          HTML & CSS
+        </a>
+        <a href="https://github.com/yourusername/sql-projects" target="_blank"
+           class="bg-white shadow-md rounded-2xl p-4 text-center hover:bg-blue-100 transition">
+          SQL
+        </a>
+        <a href="https://github.com/yourusername/git-examples" target="_blank"
+           class="bg-white shadow-md rounded-2xl p-4 text-center hover:bg-blue-100 transition">
+          Git
+        </a>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section>
+      <h2 class="text-2xl font-semibold mb-3">Contacts:</h2>
+      <p class="text-lg">
+        EMAIL: <a href="mailto:yourmail@example.com" class="text-blue-600 hover:underline">enric.bi.06@mail.ru</a>
+      </p>
+      <p class="text-lg">
+        GIT: <a href="https://github.com/morz1ck" target="_blank" class="text-blue-600 hover:underline">github.com/morz1ck</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-gray-200 p-4 text-center mt-8">
+    © 2025 | Artem Abaev
+  </footer>
+</body>
+</html>
